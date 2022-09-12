@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Super Flash</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="inter_banner_ad">ca-app-pub-7816271303731312/3025191383</string>
+    <string name="todo">TODO</string>
+    <string name="share_to_friends">Share to Friends</string>
+    <string name="more_apps">More Apps</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="action_settings" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer closed</string>
+
+</resources>

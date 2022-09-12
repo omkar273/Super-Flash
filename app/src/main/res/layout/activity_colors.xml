@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.lnstudio.SuperFlash.ColorsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativelayout"/>
+
+    <ImageView
+        android:id="@+id/btnFlashLightToggle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/power_off"
+        android:shadowColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="550px"
+        android:layout_height="100px"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/super_flash"/>
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="60px"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/color"/>
+
+    <ImageView
+        android:layout_width="230px"
+        android:layout_height="70px"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/speed"/>
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:id="@+id/speedcolor1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="20dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speedcolor2"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="20dp"/>
+
+</RelativeLayout>

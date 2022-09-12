@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920977544913",
+    "project_id": "androidlight-8728d",
+    "storage_bucket": "androidlight-8728d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920977544913:android:eda5d26bcc1beefdb217f0",
+        "android_client_info": {
+          "package_name": "com.lnstudio.colorblinkflashlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920977544913-ubtj2seuho979m1jmtp63n71pgbpf1is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJzZouMw4f5z2P0VJiBW_AQ15o9IfQ8LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920977544913-ubtj2seuho979m1jmtp63n71pgbpf1is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

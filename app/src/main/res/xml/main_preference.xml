@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Choose Preferences">
+        <CheckBoxPreference
+            android:key="Openflash"
+            android:summary="Flash On while opening the app"
+            android:title="Flash On Startup"/>
+
+    <CheckBoxPreference
+        android:key="Exitflash"
+        android:summary="Flash Off when Exit"
+        android:title="Flash Off when Exit"/>
+        <CheckBoxPreference
+            android:key="Darkback"
+            android:summary="Set Dark Background for your app"
+            android:title="Set Dark Background"/>
+    <SwitchPreference
+        android:key="switch"
+        android:title="Sound"
+        android:summary="Click to Switch on or off sound"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

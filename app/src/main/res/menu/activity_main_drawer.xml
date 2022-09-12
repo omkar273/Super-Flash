@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:title="Rate us" />
+<!--        <item android:id="@+id/remove_ads"-->
+<!--            android:icon="@drawable/ic_baseline_rate_review_24"-->
+<!--            android:title="Remove Ads" />-->
+
+        <item android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:title="Privacy Policy"
+            android:iconTint="@color/color_blue" />
+
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+        <item android:id="@+id/moreapps"
+            android:icon="@drawable/more_apps_24"
+            android:title="More Apps"/>
+    </group>
+
+
+</menu>
